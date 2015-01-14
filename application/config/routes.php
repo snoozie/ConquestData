@@ -40,7 +40,8 @@
 
 $route['default_controller'] = "conquestdata";
 $route['404_override'] = '';
-
+$route['about_us'] = "conquestdata/about_us";
+$route['contact'] = "conquestdata/contact";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

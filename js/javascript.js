@@ -24,8 +24,5 @@ $(document).ready(function() {
               }
           }
       });
-	  rome(start);
-	rome(expiry);
-	
 });
 

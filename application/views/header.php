@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?php echo $data['title'].' - '.SITETITLE; //SITETITLE defined in index.php?></title>
+    <title><?php //echo $data['title'].' - '.SITETITLE; //SITETITLE defined in index.php?></title>
     <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
 	
     <!-- Add jQuery library -->
@@ -19,5 +19,11 @@
     
 </head>
 <body>
-
 <div class="wrapper">
+    <div style="width: 100%; height: 100px; padding: 20px 0 20px 40px; background-color: grey;">
+        <div style="float: left;"><span style='font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size: 30px; '>Conquest Data</span></div>
+        <div style="width: 850px; float: right; margin: 20px 0 0 40px;">
+            <a style="color: black; margin: 0 20px;" href="about_us">About Us</a>
+            <a style="color: black;" href="contact">Contact Us</a>
+        </div>
+    </div>

@@ -14,4 +14,7 @@
  
 ?>
 
-<div><p>Hello!</p></div>
+<div style='padding: 10px 40px;'>
+    <h3>About Us</h3>
+	<p>We are the best!!!</p>
+</div>
