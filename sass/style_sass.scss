@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/05/2015, 1:44:20 PM
+    Author     : Susan
+*/
+
+#main_site{
+    
+/* 
+* > Headings, Paragraphs and Links
+*/
+
+p.clear
+{
+    padding-left: 10px;
+    clear: both;
+}
+
+h1 ~ p
+{
+   padding-left: 0; 
+}
+
+div > p
+{
+    clear: none;
+}
+
+div.clear > h2 ~ p
+{
+    clear: both;
+    padding-left: 10px;
+}
+
+h1
+{
+    color: #26075A;
+    padding-top: 20px;
+}
+
+h2{
+    color: #26075A;
+    border-left: 4px solid rgb(61, 61, 128);
+    padding-left: 4px;
+    float: left;
+}
+}

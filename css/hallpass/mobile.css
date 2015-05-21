@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/01/2015, 11:58:42 AM
+    Author     : Susan
+*/
+
+   /* Smartphones (portrait) ----------- */  
+    @media only screen   
+    and (max-width : 767px) 
+    {  
+        /* Styles */  
+        #wrapper { width:320px; height:480px; margin: 0 0 0 5px; }
+        #content { width:320px; height:380px; float:left }
+        .form_row
+        {
+            width: 327px;
+            height: 3em;
+        }
+        input
+        {
+            width: 50px;
+        }
+        #send_pass
+        {
+            margin: 2%;
+        }
+        .left
+        {
+            float: left;
+            width: 40%;
+            //margin-top: 6px;
+        }
+        .right{
+            width: 225px;
+            padding-bottom: 10px;
+        }
+        .login_right{
+            width: 100%;
+            height: 2em;
+            padding-bottom: 10px;
+        }
+        #access input[type=number] 
+        {
+            text-security:disc;
+            -webkit-text-security:disc;
+            -mox-text-security:disc;
+        }
+        .form-control{
+            height: 40px;
+        }
+        .add_button
+        {
+            padding: 4.2% 7.2% !important;
+            margin: 1% .2%;
+        }
+        
+        .add_button_colour
+        {
+            background-color: #96BAE9;
+        }
+        
+        .area_colour
+        {
+            background-color: #EA9ACA;
+        }
+        
+        .add_button_colour.pressed
+        {
+            //background-color: #8ABCA0;
+            border-color: #7E5BC2;
+            border-width: 2px;
+            margin: 1% .1%;
+            padding: 4% 7% !important;
+        }
+        
+        .area_colour.pressed
+        {
+            border-color: #F26A86;
+            border-width: 2px;
+        }
+        
+        .header_top
+        {
+            border-bottom: 1px solid grey;
+            height: 6em;
+        }
+        
+        .logo_header
+        {
+            float: left;
+            font-size: 35px;
+        }
+        
+        .header_inner_top
+        {
+            width: 250px; 
+        }
+        
+        .text_header
+        {
+            font-size: 43px;
+        }
+    }  
+    
+
+    /* iPads (portrait and landscape) ----------- */  
+    //@media only screen   
+    //and (min-device-width : 768px)   
+    //and (max-device-width : 1024px) {  
+    /* Styles */  
+    //}  
+

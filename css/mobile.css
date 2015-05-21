@@ -1,0 +1,245 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/01/2015, 11:58:42 AM
+    Author     : Susan
+*/
+
+   /* Smartphones (portrait) ----------- */  
+    @media only screen   
+    and (max-width : 767px) 
+    {  
+        /* Styles */  
+        .wrapper { width:100%; }
+        #content { width:320px; height:380px; float:left }
+        .form_row
+        {
+            width: 327px;
+        }
+        input
+        {
+            width: 50px;
+        }
+        #send_pass
+        {
+            margin: 2%;
+        }
+        .left
+        {
+            float: left;
+            width: 100%;
+            //margin-top: 6px;
+        }
+        
+        .contact_left
+        {
+            float: left;
+            width: 100%;
+            //margin-top: 6px;
+        }
+        .right{
+            width: 100%; 
+            height: 100px;
+            //margin-top: -80px;
+        }
+        
+        .contact_right
+        {
+            width: 100%;
+            height: 100px;
+            padding: 0;
+        }
+        #access input[type=number] 
+        {
+            text-security:disc;
+            -webkit-text-security:disc;
+            -mox-text-security:disc;
+        }
+        .form-control{
+            height: 40px;
+        }
+        .add_button
+        {
+            padding: 4.2% 7.2% !important;
+            margin: 1% .2%;
+        }
+        
+        .add_button_colour
+        {
+            background-color: #96BAE9;
+        }
+        
+        .area_colour
+        {
+            background-color: #EA9ACA;
+        }
+        
+        .add_button_colour.pressed
+        {
+            //background-color: #8ABCA0;
+            border-color: #7E5BC2;
+            border-width: 2px;
+            margin: 1% .1%;
+            padding: 4% 7% !important;
+        }
+        
+        .area_colour.pressed
+        {
+            border-color: #F26A86;
+            border-width: 2px;
+        }
+    }  
+    .footer{
+        width: 100%;
+        height: 2em;
+    }
+    
+    .navigation
+    {
+        width: 12%; float: right; //margin: 40px 0 0 20px; 
+        margin: 0; margin-top: 5%;
+    }
+    
+    nav ul, nav:active ul {
+ 
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: #fff;
+        border: 5px solid #444;
+        right: 20px;
+        top: 60px;
+        width: 50%;
+        border-radius: 4px 0 4px 4px;
+ 
+    }
+ 
+    nav li {
+ 
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+ 
+    }
+ 
+    nav:hover ul {
+ 
+        //display: block;
+ 
+    }
+    
+    #menu-icon {
+ 
+        display:inline-block;
+        
+        width: 48px;
+        height: 3em;
+        background: #E6EEFA;
+        background-image: url('../images/menu.png');
+    }
+	
+	#menu
+	{
+		display: none;
+		position: absolute;
+		background: #3d3d80;
+		color: #fff;
+		top: 0px;
+		right: 0px;
+		width: 50%;
+		height: 100%;
+		z-index: 99;
+		border-left: 2px solid black;
+	}
+    
+    .header
+{
+    //width: 220px;
+    //float: left;
+    //height: 40px;
+    
+    float: left; 
+    width: 85%; height: 80px; 
+    margin-top: 0px; font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.logo_header
+{
+    float: left; font-size: 35px;
+}
+.text_header
+{
+    //font-size: 35px; 
+	font-size: 2.1em;
+	margin-right: .4em;
+	margin-top: .2em;
+}
+.call_header
+{
+    float: right; margin-top: -20px;
+}
+
+.header_top
+{
+    width: 100%; height: 90px; 
+    padding: 0px; 
+    border-bottom: 1px solid grey;
+	background-color: #3D3D80;
+    color: #F0EBF4;
+	padding-top: 2px;
+}
+
+#image
+{
+    display: none;
+}
+
+#inner
+{
+    height: auto;
+    min-height: 24em;
+}
+
+#outer
+{
+    height: auto;
+    min-height: 22em;
+}
+
+#what-we-do
+{
+    float:left;
+    width: 100%;
+    height: 13em;
+}
+
+#custom-websites
+{
+    width: auto;
+}
+
+#outer-custom-websites
+{
+    width: 100%; 
+    height: 21em;
+}
+
+#contact-us
+{
+    min-height: 37em;
+}
+
+#outer-contact-us
+{
+    min-height: 43em; 
+}
+    /* iPads (portrait and landscape) ----------- */  
+    //@media only screen   
+    //and (min-device-width : 768px)   
+    //and (max-device-width : 1024px) {  
+    /* Styles */  
+    //}  
+

@@ -1,0 +1,326 @@
+/* 
+* Place css styles below.
+*/
+body{
+    background-color: #E9EAEB;
+    color: #333;
+    font: 1.4em Arial, Helvetica, sans-serif;
+    letter-spacing: .2px;
+}
+
+p
+{
+    padding-left: 10px;
+}
+
+a :not(nav){
+    color: #73b8a1;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #9a9a9a;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+table {
+    border: 1px solid #ddd;
+    width: 100%;
+
+    font-size: 12px;
+    text-align: left;
+}
+
+table th {
+    background: #eee;
+    border: 1px solid #bbb;
+    padding: 8px;
+}
+
+table tr td {
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+
+table tr.alt td {
+    background: #e2e2e2;
+}
+
+table tr:hover {
+    background: #f0f0f0;
+}
+
+li {
+    list-style-image: url("../images/arrow.png");
+}
+
+.personal_details {
+    float: left; 
+    width: 100%;
+    height: 200px;
+}
+
+/* Framework elements */
+.wrapper {
+    margin: auto;
+    width: 1100px;
+}
+
+.clear {
+    clear: both;
+}
+
+.pagination li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.error {
+    background: rgba(247,72,59,.1);
+    border: 1px solid #f7483b;
+    color: #444;
+
+    max-width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.form_row
+{
+    width: 340px;
+    height: 50px;
+}
+
+.left
+{
+    float: left;
+    width: 55%;
+    //margin-top: 6px;
+}
+
+.contact_left
+{
+    float: left;
+    width: 65%;
+}
+
+.right
+{
+    //float: right;
+    width: 40%; float: right; height: 100px;
+}
+
+.contact_right
+{
+    width: 35%;
+    float: right;
+    padding: 0 0 0 15px;
+        
+}
+
+.header
+{
+    float: left; 
+	width: 390px; 
+	height: 80px; 
+	margin-top: 10px; 
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.logo_header{
+    float: left; font-size: 35px;
+}
+.text_header
+{
+    font-size: 48px;
+    margin-top: 8px;
+    color: #f0ebf4;
+}
+
+.call_header
+{
+    float: right; margin-top: 40px;
+    color: #f0ebf4;
+}
+
+.call_header
+{
+    float: right; margin-top: 40px;
+}
+
+.header_top
+{
+    width: 100%; 
+    height: 8em; 
+    border-bottom: 1px solid grey;
+    
+    background: transparent linear-gradient(180deg, rgb(46, 46, 96), rgb(68, 68, 141)) repeat scroll 0% 0%;
+    padding-top: 10px;
+    
+    position: absolute;
+    left:0px;
+    top: 0px;
+}
+
+.header_inner_top
+{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.item
+{
+    width: 220px;
+}
+
+.nav
+{
+    color: black; 
+    margin: 0 20px;
+    float: left;
+}
+
+.contact_email
+{
+    width: 60%;
+}
+
+.contact_address
+{
+    width: 40%;
+}
+
+.footer
+{
+    margin: auto;
+    width: 1100px;
+    height: 50px;
+	margin-bottom: 10px; 
+    padding-top: 20px; 
+    border-top: 1px solid #617AE7;
+	clear: both;
+}
+
+.navigation
+{
+    float: left; 
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 1.2em;
+    background-color: transparent;
+}
+
+nav ul {
+ 
+    list-style: none;
+    background-color: transparent;
+    padding-left: 10px;
+}
+ 
+nav ul li 
+{
+    display: inline-block;
+    float: left;
+
+    margin: 0px 2px;
+    padding: 8px;
+    background-color: rgb(38, 7, 90);
+}
+
+nav li a {
+    color: #f0ebf4;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+nav li a.active
+{
+    border-bottom: 2px solid #808080;
+}
+
+#menu-icon {
+ 
+    display: none;
+}
+
+h2{
+    border-left: 4px solid rgb(61, 61, 128);
+    padding-left: 4px;
+}
+
+.website-arrow{
+    float: left; 
+    margin-top: 25px; 
+    margin-left: 10px;
+}
+
+#image
+{
+    display: inline;
+}
+
+#inner
+{
+    height: auto;
+    min-height: 470px;
+}
+
+#outer
+{
+    height: auto;
+    min-height: 490px;
+}
+
+#what-we-do
+{
+    height: 220px;
+    width: 550px;
+}
+
+#custom-websites
+{
+    width: 830px;
+}
+
+#outer-custom-websites
+{
+    width: 1100px; 
+    height: 200px;
+}
+
+#contact-us
+{
+    min-height: 460px;
+}
+
+#outer-contact-us
+{
+    min-height: 470px; 
+}
+
+#about-us, #outer-about-us
+{
+    min-height: 35em;
+}
+
+.content-top
+{
+    padding: 0px 0px; 
+    min-height: 480px; 
+    font-size: 1.1em; 
+    margin-top: 120px;
+}
+
+.caption
+{
+    font-size: 12px;
+    text-align: center;
+}

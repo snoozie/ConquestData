@@ -64,6 +64,37 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
+$db['hall_pass']['hostname'] = 'localhost';
+$db['hall_pass']['username'] = 'root';
+$db['hall_pass']['password'] = '';
+$db['hall_pass']['database'] = 'hall_pass';
+$db['hall_pass']['dbdriver'] = 'mysql';
+$db['hall_pass']['dbprefix'] = '';
+$db['hall_pass']['pconnect'] = TRUE;
+$db['hall_pass']['db_debug'] = TRUE;
+$db['hall_pass']['cache_on'] = FALSE;
+$db['hall_pass']['cachedir'] = '';
+$db['hall_pass']['char_set'] = 'utf8';
+$db['hall_pass']['dbcollat'] = 'utf8_general_ci';
+$db['hall_pass']['swap_pre'] = '';
+$db['hall_pass']['autoinit'] = TRUE;
+$db['hall_pass']['stricton'] = FALSE;
+
+$db['resume']['hostname'] = 'localhost';
+$db['resume']['username'] = 'root';
+$db['resume']['password'] = '';
+$db['resume']['database'] = 'resume';
+$db['resume']['dbdriver'] = 'mysql';
+$db['resume']['dbprefix'] = '';
+$db['resume']['pconnect'] = TRUE;
+$db['resume']['db_debug'] = TRUE;
+$db['resume']['cache_on'] = FALSE;
+$db['resume']['cachedir'] = '';
+$db['resume']['char_set'] = 'utf8';
+$db['resume']['dbcollat'] = 'utf8_general_ci';
+$db['resume']['swap_pre'] = '';
+$db['resume']['autoinit'] = TRUE;
+$db['resume']['stricton'] = FALSE;
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */

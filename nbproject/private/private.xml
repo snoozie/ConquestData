@@ -2,6 +2,30 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/hallpass/staff.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/hallpass/staff_header.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/config/routes.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/css/mobile.css</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/projects.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/hallpass/staffView.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/hallpass/students.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/controllers/conquestdata.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/header.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/css/style.css</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/js/hallpass/javascript.js</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/faq.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/projects_login.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/projects_addtime.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/.htaccess</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/controllers/hallpass.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/main.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/about_us.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/models/hallpass_model.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/models/conquestdata_model.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/hallpass/showPasses.php</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/js/javascript.js</file>
+            <file>file:/C:/xampp/htdocs/ConquestData/application/views/services.php</file>
+        </group>
     </open-files>
 </project-private>

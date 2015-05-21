@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/05/2015, 1:44:20 PM
+    Author     : Susan
+*/
+/* line 11, ../sass/style_sass.scss */
+#main_site {
+  /* 
+  * > Headings, Paragraphs and Links
+  */
+}
+/* line 17, ../sass/style_sass.scss */
+#main_site p.clear {
+  padding-left: 10px;
+  clear: both;
+}
+/* line 23, ../sass/style_sass.scss */
+#main_site h1 ~ p {
+  padding-left: 0;
+}
+/* line 28, ../sass/style_sass.scss */
+#main_site div > p {
+  clear: none;
+}
+/* line 33, ../sass/style_sass.scss */
+#main_site div.clear > h2 ~ p {
+  clear: both;
+  padding-left: 10px;
+}
+/* line 39, ../sass/style_sass.scss */
+#main_site h1 {
+  color: #26075A;
+  padding-top: 20px;
+}
+/* line 45, ../sass/style_sass.scss */
+#main_site h2 {
+  color: #26075A;
+  border-left: 4px solid #3d3d80;
+  padding-left: 4px;
+  float: left;
+}
